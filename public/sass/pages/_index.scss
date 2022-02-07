@@ -1,0 +1,55 @@
+.section-cards {
+    background-color: #f1f2f3;
+    padding: 3em;
+}
+h1{
+    font-size: 3em;
+}
+p { 
+    font-size: 20px;
+}
+.remera-logo {
+    width: 100%;
+    margin: 40px auto;
+    background-color: #8ACAD1;
+    color: #000;
+    padding: 15px;
+}
+
+.remera {
+    float: left;
+    margin-right: 15px;
+    width: 40%;
+}
+.promo {
+    margin: 200px 50px;   
+}
+.promo p {
+    text-align: center;
+    font-size: 25px;
+}
+h3 {
+    font-size: 25px;
+}
+    
+.precio {
+    font-size: 30px;
+    background-color: #000;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    margin: 20px;
+}
+
+@media (min-width: 1200px) {
+    .cards-container {
+        gap: 2em;
+    }
+}
+
+

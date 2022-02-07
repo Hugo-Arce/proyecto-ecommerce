@@ -1,0 +1,83 @@
+<div class="container-alta">
+
+    <fieldset class="formulario-1">
+                    
+        <h1 class="datos_alta">Alta de Producto</h1>
+        
+    
+        <form class="formulario-alta" autocomplete="off">
+
+        <!--Nombre -->
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" type="text" class="completar" placeholder="Nombre">
+            <div class="msj-validacion"></div>
+
+        <!-- Precio -->
+            <label for="precio">Precio:</label>
+            <input id="precio" type="text" class="completar" placeholder="Precio">
+            <div class="msj-validacion"></div>
+
+        <!-- Stock -->
+            <label for="stock">Stock:</label>
+            <input id="stock" type="text" class="completar" placeholder="Stock" max="200" required>
+            <div class="msj-validacion"></div>
+
+        <!-- Marca -->
+            <label for="marca">Marca:</label>
+            <input id="marca" type="text" class="completar" placeholder="Marca" required>
+                
+            <div class="msj-validacion"></div>
+
+        <!-- Categoria -->
+            <label for="categoria">Categoria:</label>
+            <input id="categoria" type="text" class="completar" placeholder="Categoria" required>
+                
+            <div class="msj-validacion"></div>
+
+        <!-- Detalles -->
+            <label for="detalles">Detalles:</label>
+            <input id="detalles" type="text" class="completar" placeholder="Detalles" required>
+            <div class="msj-validacion"></div>
+        
+        
+        <!-- Foto 
+            <label for="foto">Imagen:</label>
+            <input type="text" id="foto" class="completar" required placeholder="URL de la imagen"> 
+            <div></div>
+            <br>-->
+            <div id="drop-area">
+                <p>Subir imágen al servidor con <b>file dialog</b> ó con <b>drag and drop</b> dentro del área punteada</p>
+                <br>
+
+                <input id="foto" type="file" accept="image/*" onchange="formularioAlta.handleFiles(this.files)">
+            <label class="button" for="foto">File dialog</label>
+            <br><br>
+    
+                <progress id="progress-bar" max="100" value="0"></progress>
+                <div id="gallery"><img width="100" src="" alt=""></div>
+            </div>
+
+        <!-- Envio -->
+            <input type="checkbox" id="envio" value="si" class="formulario-envio">
+            <label for="envio">Envío sin cargo</label>
+            <div></div>
+            <br>
+        
+            <button id="botones-formulario8">Agregar</button>
+            
+        
+        </form>
+
+
+    </fieldset>
+
+    <div class="formulario-2">
+        <hr>
+        <h1 class="datos_alta">Listado de productos</h1>
+        <br>
+
+    <div id="listado-productos"></div>
+    </div>
+
+
+</div>

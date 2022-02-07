@@ -1,0 +1,43 @@
+<img class="portada-logo" src="img/productos/portada-logo1.png" alt="fondo">
+        
+
+        <form action="contacto.php" method="get" autocomplete="off">
+
+        <fieldset class="datos1">
+            <legend class="datos">Datos Personales</legend>
+            
+            <div class="datos2">
+                <label for="nombre">Nombre:*</label>
+                <input class="completar" type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="datos2">
+                <label for="apellido">Apellido:*</label>
+                <input class="completar" type="text" id="apellido" name="apellido" required>
+            </div>
+
+            <div class="datos2">
+                <label for="mail">Dirección de correo electrónico:*</label>
+                <input class="completar" type="email" id="mail" name="mail" placeholder="Ej: mail@gmail.com" required>
+            </div>
+
+            <div class="datos2">
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario"></textarea>
+            </div>
+
+            <div class="datos3">
+                <input type="checkbox" name="condiciones" id="condiciones" required>
+                <label for="condiciones">Acepto las condiciones</label>
+            </div>
+            <div class="datos3">
+                <input type="checkbox" name="novedades" id="novedades" checked>
+                <label for="novedades">Deseo recibir novedades</label>
+            </div>
+
+            <div id="boton-contacto">
+                <button type="submit">Enviar </button>
+            </div>
+
+        </fieldset>
+        </form>

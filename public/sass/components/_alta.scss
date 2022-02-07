@@ -1,0 +1,163 @@
+.formulario-1 {
+    width: 700px;
+    background-color: rgba($color: #1695A3, $alpha: 0.5);
+    padding: 80px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    color: #000;
+    box-shadow: 7px 13px 37px #000;
+
+}
+.formulario-1:focus-within {
+    background-color: #1695A3;
+    color: #fff;
+}
+
+.datos_alta {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+
+}
+
+.formulario-alta{
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+}
+.formulario-alta select{
+    font-size: 15px;
+    text-align: left;
+    padding: 10px;
+}
+.completar {
+    display: block;
+    text-align: left;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    color: #000;
+    font-size: 17px;
+}
+
+textarea {
+    display: block;
+    margin: 0px auto;
+    padding: 35px;
+    width: 100%;
+    resize: vertical;
+    color: #000;
+    font-size: 17px;
+}
+
+.formulario-envio {
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+}
+
+#botones-formulario {
+    text-align: center; 
+    font-size: 40px;
+    width: 80px;
+    height: 35px;
+}
+
+button[type="submit"] {
+    //padding: 20px;
+    background-color: #000;
+    color: #1695A3;
+    //font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid #070819;
+    margin: 15px;
+    width: 80px;
+    height: 55px;
+
+}
+button[type="submit"]:hover {
+    background-color: #1695A3;
+    color: #000;
+    
+}
+/*button[type="reset"] {
+    padding: 10px;
+    background-color: #000;
+    color: #1695A3;
+    font-size: medium;
+    border-radius: 4px;
+    border: 1px solid #070819;
+    margin: 15px;
+}
+
+button[type="reset"]:hover {
+    background-color: #1695A3;
+    color: #000;
+    
+}*/
+form div.msj-validacion {
+    border: 1px solid #173161;
+    background-color: #000;
+    color: #fff;
+    margin: 2px 0 10px 0;
+    border-radius: 5px;
+    display: none;       
+}
+
+
+.container-alta {
+    table,th,td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    #listado-productos {
+        width: 100%;
+    }
+
+    th,td {
+        padding: 5px;
+    }
+
+
+    #drop-area {
+        border: 1px solid #000;
+        border-radius: 10px;
+        color: #173161;
+        width: 90%;
+        margin: 20px 5px;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+    .button {
+        display: inline-block;
+        padding: 10px;
+        background: #ccc;
+        cursor: pointer;
+        border-radius: 5px;
+        border-radius: 1px solid #ccc;
+    }
+
+    #foto {
+        display: none;
+    }
+
+    #gallery img {
+        width: 100px;
+        margin-top: 10px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+
+    #drop-area.highlight {
+        border-color: purple;
+    }
+
+
+}
